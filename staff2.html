@@ -30,6 +30,10 @@
   <link href="./src/css/aos.min.css" rel="stylesheet">
   <link href="src/css/style.min.css" rel="stylesheet">
   <link href="src/css/ihover.min.css" rel="stylesheet">
+ <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+    
 
   <!--Google Fonts-->
   <link href="https://fonts.googleapis.com/css?family=Lato:200,300,400,400i,900,900i" rel="stylesheet">
@@ -44,7 +48,35 @@
     <script>
       AOS.init();
     </script>
-    
+    <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+  <ul class="nav nav-bordered nav-stacked flex-column">
+    <li class="nav-header">Examples</li>
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="history.html">History</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="staff.html">Staff</a>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="booking.html">Booking</a>
+    </li>
+    </li>
+      <li class="nav-item">
+      <a class="nav-link" href="contactus.html">Contact Us</a>
+    </li>
+    <li class="nav-divider"></li>
+    <li class="nav-header">Docs</li>
+    <li class="nav-item">
+      <a class="nav-link" href="docs/index.html">Toolkit</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="http://getbootstrap.com">Bootstrap</a>
+    </li>
+  </ul>
+</div>
       <div class="title" data-aos="zoom-down">
         <h2>Officers</h2>
       </div>
@@ -53,7 +85,7 @@
           <div class="ih-item square colored effect13 bottom_to_top">
             <a data-target="#arpan" data-toggle="modal">
               <div class="img">
-                <img src="https://pbs.twimg.com/profile_images/898442596925689857/thPhcYMt_400x400.jpg" alt="Arpan, the President" height="100%" width="100%">
+                <img src="assets/img/guy4.jpg" alt="Arpan, the President" height="100%" width="100%">
               </div>
               <div class="info">
                 <h3>Arpan Patel</h3>
@@ -247,7 +279,12 @@
   <script src="src/js/navbar.min.js"></script>
   <script src="./src/js/scroll.min.js"></script>
   <script src="src/js/prognroll.min.js"></script>
-  <script>
+ 
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/tether.min.js"></script>
+    <script src="assets/js/toolkit.js"></script>
+    <script src="assets/js/application.js"></script>
+<script>
     $(function () {
       $("body").prognroll();
     });
