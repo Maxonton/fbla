@@ -2887,6 +2887,7 @@ tbody.collapse.show {
           flex-direction: column;
   padding-left: 0;
   margin-bottom: 0;
+  background-color: #3A6D9D;
   list-style: none; }
   .navbar-nav .nav-link {
     padding-right: 0;
@@ -8990,3 +8991,13 @@ h6, .h6 {
 
 strong {
   font-weight: bold; }
+
+.img-with-text {
+    text-align: justify;
+    width: 200px;
+}
+
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
