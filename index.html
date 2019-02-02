@@ -16,165 +16,7 @@
     </title>
 
 
-<style type="text/css">
-    .loader {
-      height: 100%;
-      width: 100%;
-      position: fixed;
-      display: block;
-      background-color: #343A40;
-      z-index: 9999;
-    }
-
-    .cssload-triangles {
-      transform: translate(-50%, -50%);
-      -o-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-      -webkit-transform: translate(-50%, -50%);
-      -moz-transform: translate(-50%, -50%);
-      height: 79px;
-      width: 88px;
-      position: absolute;
-      left: 50%;
-      top: 50%;
-    }
-
-    .cssload-tri {
-      position: absolute;
-      animation: cssload-pulse 862.5ms ease-in infinite;
-      -o-animation: cssload-pulse 862.5ms ease-in infinite;
-      -ms-animation: cssload-pulse 862.5ms ease-in infinite;
-      -webkit-animation: cssload-pulse 862.5ms ease-in infinite;
-      -moz-animation: cssload-pulse 862.5ms ease-in infinite;
-      border-top: 26px solid #3f458c;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-      border-bottom: 0px;
-    }
-
-    .cssload-tri.cssload-invert {
-      border-top: 0px;
-      border-bottom: 26px solid #3f458c;
-      border-left: 15px solid transparent;
-      border-right: 15px solid transparent;
-    }
-
-    .cssload-tri:nth-child(1) {
-      left: 15px;
-      top: 26px;
-      animation-delay: -143.75ms;
-      -o-animation-delay: -143.75ms;
-      -ms-animation-delay: -143.75ms;
-      -webkit-animation-delay: -143.75ms;
-      -moz-animation-delay: -143.75ms;
-    }
-
-    .cssload-tri:nth-child(2) {
-      left: 29px;
-      top: 26px;
-    }
-
-    .cssload-tri:nth-child(3) {
-      left: 44px;
-      top: 26px;
-      animation-delay: -718.75ms;
-      -o-animation-delay: -718.75ms;
-      -ms-animation-delay: -718.75ms;
-      -webkit-animation-delay: -718.75ms;
-      -moz-animation-delay: -718.75ms;
-    }
-
-    .cssload-tri:nth-child(4) {
-      top: 52px;
-      left: 15px;
-      animation-delay: -287.5ms;
-      -o-animation-delay: -287.5ms;
-      -ms-animation-delay: -287.5ms;
-      -webkit-animation-delay: -287.5ms;
-      -moz-animation-delay: -287.5ms;
-    }
-
-    .cssload-tri:nth-child(5) {
-      top: 52px;
-      left: 30px;
-      animation-delay: -431.25ms;
-      -o-animation-delay: -431.25ms;
-      -ms-animation-delay: -431.25ms;
-      -webkit-animation-delay: -431.25ms;
-      -moz-animation-delay: -431.25ms;
-    }
-
-    .cssload-tri:nth-child(6) {
-      top: 52px;
-      left: 44px;
-      animation-delay: -575ms;
-      -o-animation-delay: -575ms;
-      -ms-animation-delay: -575ms;
-      -webkit-animation-delay: -575ms;
-      -moz-animation-delay: -575ms;
-    }
-
-    @keyframes cssload-pulse {
-      0% {
-        opacity: 1;
-      }
-      16.666% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-
-    @-o-keyframes cssload-pulse {
-      0% {
-        opacity: 1;
-      }
-      16.666% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-
-    @-ms-keyframes cssload-pulse {
-      0% {
-        opacity: 1;
-      }
-      16.666% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-
-    @-webkit-keyframes cssload-pulse {
-      0% {
-        opacity: 1;
-      }
-      16.666% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-
-    @-moz-keyframes cssload-pulse {
-      0% {
-        opacity: 1;
-      }
-      16.666% {
-        opacity: 1;
-      }
-      100% {
-        opacity: 0;
-      }
-    }
-  </style>
-   
+    
       <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
       <link href="assets/css/toolkit-startup.css" rel="stylesheet">
       <link href="assets/css/application-startup.css" rel="stylesheet">
@@ -182,9 +24,6 @@
 
     
 
-  <link href="./src/css/aos.min.css" rel="stylesheet">
-  <link href="src/css/style.min.css" rel="stylesheet">
-  <link href="src/css/ihover.min.css" rel="stylesheet">
     <style>
       /* note: this is a hack for ios iframe for bootstrap themes shopify page */
       /* this chunk of css is not part of the toolkit :) */
@@ -206,22 +45,12 @@
     </style>
     
     
-
-
   </head>
-  <body>
+
+
+<body>
   
 
-  <div class="loader">
-    <div class="cssload-triangles">
-      <div class="cssload-tri cssload-invert"></div>
-      <div class="cssload-tri"></div>
-      <div class="cssload-tri cssload-invert"></div>
-      <div class="cssload-tri"></div>
-      <div class="cssload-tri cssload-invert"></div>
-      <div class="cssload-tri"></div>
-    </div>
-  </div>
 
 <div class="stage-shelf stage-shelf-right hidden" id="sidebar">
   <ul class="nav nav-bordered nav-stacked flex-column">
@@ -508,23 +337,6 @@
     <script src="assets/js/tether.min.js"></script>
     <script src="assets/js/toolkit.js"></script>
     <script src="assets/js/application.js"></script>
- <script src="src/js/popper.min.js"></script>
-  <script src="src/js/bootstrap.min.js"></script>
-  <script src="src/js/particles.min.js"></script>
-  <script src="src/js/app.min.js"></script>
-
-  <script src="./src/js/scroll.min.js"></script>
-  <script src="src/js/prognroll.min.js"></script>
-  <script>
-    $(function () {
-      $("body").prognroll();
-    });
-  </script>
-  <script type="text/javascript">
-    $(window).bind("load", function () {
-      $('.loader').fadeOut(200);
-    });
-  </script>
   </body>
 </html>
 
