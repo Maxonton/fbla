@@ -1,55 +1,45 @@
 
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<title>Accuracy | Home</title>
+	
 
-    <title>
-      
-        Accuracy Accounting &middot; 
-      
-    </title>
+	<!--iOS -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    
-      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
-      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	
+	<link rel="stylesheet" href="main.css">
+     <link href="assets/css/toolkit-startup.css" rel="stylesheet">
       <link href="assets/css/application-startup.css" rel="stylesheet">
-    
+	<script src="modernizr-2.6.2.min.js"></script>
+	  <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+     
 
-    
-
-    <style>
-      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
-      /* this chunk of css is not part of the toolkit :) */
-      /* …curses ios, etc… */
-      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
-        body {
-          width: 1px;
-          min-width: 100%;
-          *width: 100%;
-        }
-        #stage {
-          height: 1px;
-          overflow: auto;
-          min-height: 100vh;
-          -webkit-overflow-scrolling: touch;
-        }
-      }
-    </style>
-  </head>
-
-
+</head>
 <body>
-  
 
 
+	<!-- Demo content -->			
+	<body>
 
-<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
+		<div id="loader-wrapper">
+			<div id="loader"></div>
+
+			<div class="loader-section section-left"></div>
+			<div class="loader-section section-right"></div>
+
+		</div>
+    		
+	<div class="stage-shelf stage-shelf-right hidden" id="sidebar">
   <ul class="nav nav-bordered nav-stacked flex-column">
     <li class="nav-header">Examples</li>
     <li class="nav-item">
@@ -129,7 +119,7 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-10 col-lg-6">
-          <h1 class="block-titleData frequency">Accuracy Accounting</h1>
+          <h1 class="block-titleData frequency"><font color = "white"><b>Accuracy Accounting</b></font></h1>
           <p class="lead mb-4 text-muted">Certified Public Accountants that allow you to focus on your company's growth with peace of mind.</p>
           <button class="btn btn-primary btn-lg" onclick="window.location='#services';">Services</button>
         </div>
@@ -259,7 +249,11 @@
           Book An Appointment Now
         </button>
       </div>
+            <div class="col-md-4 px-4 pb-1 mb-5">
         
+          
+          
+        </div>  
         <div class="col-md-4 px-4 pb-1 mb-5">
         <div class="px-2">
           <h6 class="text-muted text-uppercase mb-4">Annual Reports</h6>
@@ -274,7 +268,7 @@
         </button>
       </div>
         
-        
+    
         
         
     </div>
@@ -296,7 +290,7 @@
       </div>
 
 
-      <div class="col-md-2 mb-5">
+      <div class="col-md-4 mb-5">
         <ul class="list-unstyled list-spaced">
           <li class="mb-2"><h6 class="text-uppercase">Legal</h6></li>
           <li class="text-muted">Bootstrap License:Bootstrap Extended License
@@ -334,12 +328,21 @@
 </div>
 
 </div>
+	<!-- /Demo content -->
 
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script>window.jQuery || document.write('<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"><\/script>')</script>
+	<script src="main.js"></script>
 
-    <script src="assets/js/jquery.min.js"></script>
+	<script>
+	var _gaq=[['_setAccount','UA-839919-3'],['_trackPageview']];
+	(function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+		g.src='//www.google-analytics.com/ga.js';
+		s.parentNode.insertBefore(g,s)}(document,'script'));
+	</script>
+ <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/tether.min.js"></script>
     <script src="assets/js/toolkit.js"></script>
     <script src="assets/js/application.js"></script>
-  </body>
+</body>
 </html>
-
