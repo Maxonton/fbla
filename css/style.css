@@ -1037,7 +1037,7 @@ section ul{
 }
 
 .cld-main a{
-  	color: #00c4cd;
+  	color: #28669F;
 }
 
 .cld-main svg{
@@ -1050,7 +1050,7 @@ section ul{
     margin: auto;
     overflow: hidden;
     padding: 40px;
-    background-color: #00c4cd;
+    background-color: #28669F;
 }
 
 .cld-datetime .today{
@@ -1106,14 +1106,7 @@ section ul{
     border: 1px solid #eee;
 }
 
-.cld-day.today .cld-number{
-    background: #ffcd00;
-    color: #fff;
-}
 
-.cld-day.today .cld-number:hover{
-    background: #3d454f;
-}
 
 .cld-day.disableDay{
     opacity: 0.5;
@@ -1133,11 +1126,7 @@ section ul{
 	display: none;
 }
 
-.cld-number.eventday{
-    font-weight: bold;
-    color: #fff;
-    background-color: #00c4cd;
-}
+
 
 input#res_submit_button {
     margin-left: 38.5%;
@@ -1215,7 +1204,7 @@ input#res_submit_button {
 .form label{
 	text-transform: uppercase;
 	font-size: 16pt;
-	color: #00c4cd;
+	color: #28669F;
 }
 
 .form input, textarea{
@@ -1227,7 +1216,7 @@ input#res_submit_button {
 }
 
 .form #submit_button, #res_submit_button{
-	background-color: #00c4cd;
+	background-color: #28669F;
 	padding: 10px 33px;
 	border-radius: 5px;
 	border: none;
